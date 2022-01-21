@@ -56,7 +56,6 @@ input.onButtonPressed(Button.B, function () {
         basic.clearScreen()
     }
 })
-let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)
-basic.forever(function () {
-    strip.showColor(neopixel.colors(NeoPixelColors.Red))
-})
+while (!(input.buttonIsPressed(Button.A) || input.buttonIsPressed(Button.B))) {
+    basic.showString("Press A or B to begin")
+}
