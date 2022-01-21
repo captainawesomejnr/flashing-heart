@@ -86,8 +86,8 @@ joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P12, joystickbit.ButtonType
         . . # . .
         `)
 })
-joystickbit.initJoystickBit()
 let ButtonPressed = 0
+joystickbit.initJoystickBit()
 while (ButtonPressed == 0 && !(input.buttonIsPressed(Button.A) || input.buttonIsPressed(Button.B))) {
     basic.showString("Press A or B to begin")
     if (input.buttonIsPressed(Button.A) || input.buttonIsPressed(Button.B)) {
