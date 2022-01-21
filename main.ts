@@ -56,6 +56,10 @@ input.onButtonPressed(Button.B, function () {
         basic.clearScreen()
     }
 })
-while (!(input.buttonIsPressed(Button.A) || input.buttonIsPressed(Button.B))) {
+let ButtonPressed = 0
+while (ButtonPressed == 0 && !(input.buttonIsPressed(Button.A) || input.buttonIsPressed(Button.B))) {
     basic.showString("Press A or B to begin")
+    if (input.buttonIsPressed(Button.A) || input.buttonIsPressed(Button.B)) {
+        ButtonPressed = 1
+    }
 }
