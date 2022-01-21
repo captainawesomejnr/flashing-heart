@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ImVtpJ_^Dv_Euu4yOOV-">ButtonPressed</variable></variables><block type="device_button_event" id="1IGnDLTX9Juz+G2Ekj6(" x="389" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="D3=+IgO0j7CT8ZD+8PZ8"><value name="TIMES"><shadow type="math_whole_number" id="u0Psy$Q@@smHo:uhnNJ|"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="$j-:tfQ%!*|*16YYL1+0"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ImVtpJ_^Dv_Euu4yOOV-">ButtonPressed</variable></variables><block type="device_button_event" id="1IGnDLTX9Juz+G2Ekj6(" x="20" y="20"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="D3=+IgO0j7CT8ZD+8PZ8"><value name="TIMES"><shadow type="math_whole_number" id="u0Psy$Q@@smHo:uhnNJ|"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="$j-:tfQ%!*|*16YYL1+0"><field name="LEDS">`
         . # . # . 
         # # # # # 
         # # # # # 
@@ -10,7 +10,7 @@
         # . . . # 
         . # . # . 
         . . # . .
-        `</field></block></next></block></statement></block></statement></block><block type="device_button_event" id="v+osircTYX1-t28_^S7b" x="765" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_repeat_ext" id="5ek;Var82);Ir8iEL]d4"><value name="TIMES"><shadow type="math_whole_number" id="Ei;X%XOmm_X/}INZ_/#:"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="BcpcA(LSN}e3x5M}eAk)"><field name="LEDS">`
+        `</field></block></next></block></statement></block></statement></block><block type="device_button_event" id="v+osircTYX1-t28_^S7b" x="396" y="20"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_repeat_ext" id="5ek;Var82);Ir8iEL]d4"><value name="TIMES"><shadow type="math_whole_number" id="Ei;X%XOmm_X/}INZ_/#:"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="BcpcA(LSN}e3x5M}eAk)"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . # . . 
